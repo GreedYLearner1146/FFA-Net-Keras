@@ -56,7 +56,6 @@ def BasicBlockStructure(input_bbs):
   return Add2
 
 # Group Structure of 19 basic block structure.
-# 3 is suffice for aider-haze simulations.
 
 def GroupStructure(input_gs):
 
