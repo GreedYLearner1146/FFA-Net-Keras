@@ -80,7 +80,7 @@ def GroupStructure(input_gs):
     BBS18 = BasicBlockStructure(BBS17)
     BBS19 = BasicBlockStructure(BBS18)
 
-    convGS = Conv2D(filters = 32, kernel_size = 3, strides = 1, padding = 'same', use_bias = True)(BBS4)
+    convGS = Conv2D(filters = 32, kernel_size = 3, strides = 1, padding = 'same', use_bias = True)(BBS19)
     AddGS = keras.layers.Add()([input_gs,convGS])
 
     return AddGS
