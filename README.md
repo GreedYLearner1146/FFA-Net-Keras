@@ -1,6 +1,8 @@
 # FFA-Net-Keras
 
-This is the code repository for my best attempt in coding the FFA-Net dehazing architecture (Qin et al.: "FFA-Net: Feature Fusion Attention Network for Single Image Dehazing") in keras, as so far there are no code repository dedicated to this. The architecture of the FFA-Net is illustrated below and is straight from the paper.
+This is the code repository for my best attempt in coding the FFA-Net dehazing architecture (Qin et al.: "FFA-Net: Feature Fusion Attention Network for Single Image Dehazing") in Keras, as so far there are no code repository dedicated to this. The architecture of the FFA-Net is illustrated below and is straight from the paper.
+
+Hopefully this repository would be useful for anyone who is researching/learning image dehazing but prefer working in the tensorflow/keras language. 
 
 ![FFA](https://github.com/user-attachments/assets/abb8c241-eca5-4939-9e8c-6630672d1862)
 
