@@ -13,6 +13,8 @@ Link to the paper: https://cdn.aaai.org/ojs/6865/6865-13-10094-1-10-20200525.pdf
 
 Original github link for the work (in PyTorch): https://github.com/zhilin007/FFA-Net
 
+Please let me know if you have any questions. All the best in your research and/or learning.
+
 # Dependencies
 
 -python3
@@ -31,4 +33,8 @@ Original github link for the work (in PyTorch): https://github.com/zhilin007/FFA
 - Run FFA-Net.py (containing the main architectures of the FFA-Net).
 - Run Learning_Config.py (containing the cosine learning schedule and the Adam SGD, with the parameters adjusted to stick to the paper's config as close as possible).
 - Run training_and_prediction.py for the training and testing on your test hazy images.
-- Finally, run PSNR_and_SSIM.py to evaluate the PSNR and SSIM values of the dehazing model. 
+- Finally, run PSNR_and_SSIM.py to evaluate the PSNR and SSIM values of the dehazing model.
+
+
+# Original Paper References
+[1] X. Qin, Z. Wang, Y. Bai, X. Xie, and H. Jia, “Ffa-net: Feature fusion attention network for single image dehazing,” in Proceedings of the AAAI conference on artificial intelligence, vol. 34, no. 07, 2020, pp. 11 908–11 915. 48, 99, 107.
