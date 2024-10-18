@@ -32,7 +32,7 @@ from tensorflow.keras import backend as K
 from tensorflow.keras.activations import relu
 
 ############## FFA-Net architecture attempt in Keras #########################
-# Basic Block Structure
+# Basic Block Structure. 3 of them.
 
 def BasicBlockStructure(input_bbs):
 
