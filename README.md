@@ -14,7 +14,11 @@ Original github link for the work: https://github.com/zhilin007/FFA-Net
 # Dependencies
 
 -python3
+
 -keras version 3.6.0
+
 -Any GPUs or TPUs
+
 -numpy
+
 -matplotlib
