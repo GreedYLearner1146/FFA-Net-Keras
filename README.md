@@ -30,7 +30,7 @@ Please let me know if you have any questions. Have fun and all the best.
 # Brief Instructions 
 
 - Load the hazy and clear image datasets of your choice.
-- Run FFA-Net.py (containing the main architectures of the FFA-Net).
+- Run FFA-Net.py (containing the main architectures of the FFA-Net, coded to the best of my ability based on the paper).
 - Run Learning_Config.py (containing the cosine learning schedule and the Adam SGD, with the parameters adjusted to stick to the paper's config as close as possible).
 - Run training_and_prediction.py for the training and testing on your test hazy images.
 - Finally, run PSNR_and_SSIM.py to evaluate the PSNR and SSIM values of your dehazed images relative to the ground-truth images.
