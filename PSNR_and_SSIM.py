@@ -14,11 +14,8 @@ def PSNR(clean_image, predicted_image):
     psnr = 20*log10(max_pixel/sqrt(mse))
     return psnr
 
-PSNR('array of dehazed image', 'array of clean image')
+PSNR('dehazed image', 'clean image')
 
 #Use compare_ssim built in functions. Insert array of dehazed (predicted) images and clean images.
 
-ssim = []
-for i in range (len(data_test_dehazed)):
-  score = tf.image.ssim('array of dehazed image', 'array of clean image', max_val=2.0)
-  ssim.append(score)
+score = tf.image.ssim('dehazed image', 'clean image', max_val=2.0)
