@@ -24,3 +24,8 @@ Original github link for the work (in PyTorch): https://github.com/zhilin007/FFA
 -numpy
 
 -matplotlib
+
+# Brief Instructions 
+
+- Load the hazy and clear image datasets of your choice.
+- Run FFA-Net.py (containing the main architectures of the FFA-Net)
