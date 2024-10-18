@@ -32,7 +32,7 @@ from tensorflow.keras import backend as K
 from tensorflow.keras.activations import relu
 
 ############## FFA-Net architecture attempt in Keras #########################
-# Basic Block Structure. 3 of them.
+# Basic Block Structure. 
 
 def BasicBlockStructure(input_bbs):
 
@@ -84,7 +84,7 @@ def GroupStructure(input_gs):
 
     return AddGS
 
-# Main FFA-Net with 19 Basic Block Structure making up 1 Group stucture.
+# Main FFA-Net with 19 Basic Block Structure each making up 1 Group stucture. Total 3 Group structure.
 
 def FFANet():
 
