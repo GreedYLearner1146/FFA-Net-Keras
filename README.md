@@ -30,3 +30,4 @@ Original github link for the work (in PyTorch): https://github.com/zhilin007/FFA
 - Load the hazy and clear image datasets of your choice.
 - Run FFA-Net.py (containing the main architectures of the FFA-Net).
 - Run Learning_Config.py (containing the cosine learning schedule and the Adam SGD, with the parameters adjusted to stick to the paper's config as close as possible).
+- Run training_and_prediction.py for the training and testing on your test hazy images.
