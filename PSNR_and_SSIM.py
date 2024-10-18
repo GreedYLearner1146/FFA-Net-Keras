@@ -14,6 +14,8 @@ def PSNR(clean_image, predicted_image):
     psnr = 20*log10(max_pixel/sqrt(mse))
     return psnr
 
+# Fill in your dehazed image and clear image array as below.
+
 PSNR('dehazed image', 'clean image')
 
 #Use compare_ssim built in functions. Insert array of dehazed (predicted) images and clean images.
