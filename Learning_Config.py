@@ -1,10 +1,9 @@
 
 # Use cosine annealing (as in the paper).
 # Decay rate is total number of data*epochs. Change this to your desired value. 
-# The decay rate value below is arbitrary chosen for the NH-HAZE dehazing.
 
 cosine_decay_scheduler = tf.keras.optimizers.schedules.CosineDecay(
-    initial_learning_rate = 0.0001, decay_steps=45*80, alpha=0.0)
+    initial_learning_rate = 0.0001, decay_steps='fill in here', alpha=0.0)
 
 # Adam SGD.
 
