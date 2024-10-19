@@ -13,7 +13,7 @@ Link to the paper: https://cdn.aaai.org/ojs/6865/6865-13-10094-1-10-20200525.pdf
 
 Original github link for the work (in PyTorch): https://github.com/zhilin007/FFA-Net
 
-Please let me know if you have any questions. Have fun and all the best.
+Please let me know if you have any questions. Thanks and all the best.
 
 # Dependencies
 
